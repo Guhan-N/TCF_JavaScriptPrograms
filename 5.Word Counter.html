@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Counter</title>
+</head>
+<body>
+  <h1>Word Counter</h1>
+  <script>
+    let text = prompt("Enter a sentence:");
+    let words = text.trim().split(/\s+/); // split by spaces
+    let count = words.length;
+
+    alert("Your sentence has " + count + " words 📝");
+  </script>
+</body>
+</html>

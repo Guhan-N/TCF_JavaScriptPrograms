@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Palindrome Checker</title>
+</head>
+<body>
+  <h1>Palindrome Checker</h1>
+  <script>
+    let word = prompt("Enter a word to check palindrome:").toLowerCase();
+    let reversed = word.split("").reverse().join("");
+
+    if (word === reversed) {
+      alert(`${word} is a palindrome ✅`);
+    } else {
+      alert(`${word} is NOT a palindrome ❌`);
+    }
+  </script>
+</body>
+</html>
