@@ -1,6 +1,6 @@
 # TCF_JavaScriptPrograms
 
-# 🎯 Mini JavaScript Projects
+# 🎯 JavaScript Projects
 
 This repository contains simple **JavaScript mini projects** written with **only HTML + JavaScript**.  
 They are beginner-friendly and run directly in the browser (no frameworks required).  
